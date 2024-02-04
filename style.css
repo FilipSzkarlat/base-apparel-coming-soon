@@ -1,0 +1,29 @@
+/* GENERAL STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+.logo {
+  margin: 40px 25px;
+}
+
+.hero {
+  margin-bottom: 60px;
+}
+
+/* FOOTER */
+footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 80%;
+  align-self: center;
+}
