@@ -40,10 +40,21 @@
             and our launch deals.
           </p>
         </article>
-        <div class="email-button">
-          <input class="email" type="email" placeholder="Email Address" />
-          <button><img src="images/icon-arrow.svg" alt="" /></button>
-        </div>
+        <form name="email-address-field" class="email-button">
+          <input id="email" type="text" placeholder="Email Address" />
+          <button onclick="emailValidation()">
+            <img src="images/icon-arrow.svg" alt="" />
+          </button>
+          <p id="error-message" style="display: none">
+            Please provide a valid email
+          </p>
+          <img
+            id="error-icon"
+            src="images/icon-error.svg"
+            alt="error-icon"
+            style="display: none"
+          />
+        </form>
       </div>
       <footer>
         <p class="attribution">
